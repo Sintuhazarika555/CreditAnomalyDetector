@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Large Datasets
+data/*.csv
+data/*.zip
+
+# Serialized Model Artifacts
+models/*.joblib
+models/*.pkl
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.ipynb_checkpoints/
+
+# System and Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment variables & secrets
+.env
