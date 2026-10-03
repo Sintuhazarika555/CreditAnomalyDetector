@@ -7,6 +7,9 @@ The algorithm operates on two fundamental assumptions:
 1. **Rarity:** Anomalies constitute a fraction of the total dataset (< 0.2%).
 2. **Geometric Distinctness:** Anomalous transactions deviate noticeably from dense, normal spending clusters in high-dimensional feature space.
 
+![preview1](<Screenshot 2026-10-04 035951.png>)
+![preview2](<Screenshot 2026-10-04 040024.png>)
+
 ---
 
 ## System Architecture
@@ -28,3 +31,4 @@ credit-anomaly-detector/
 
 ```
 ---
+
