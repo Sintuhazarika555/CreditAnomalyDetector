@@ -54,6 +54,7 @@ if __name__ == "__main__":
 
     #preprocess
     X = detector.preprocess(df)
+    # supervised L : X and Y (labels) are used to train the model, while in unsupervised L, only X is used to train the model.
 
     # fit and predict
     preds , scores = detector.fit_predict(X)
